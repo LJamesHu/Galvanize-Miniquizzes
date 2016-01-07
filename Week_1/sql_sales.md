@@ -12,11 +12,15 @@ Assume we have a table called `sales` with the following schema:
 
 1. Write a SQL query that returns total amount of revenue from the affiliate network.
 
-SELECT sum(price) FROM sales WHERE source == 'affiliate';
+    ```sql
+    SELECT sum(price) FROM sales WHERE source == 'affiliate';
+    ```
 
 2. Write a SQL query that returns total amount of revenue from each source.
 
-SELECT sum(price), source FROM sales GROUP BY source;
+    ```sql
+    SELECT sum(price), source FROM sales GROUP BY source;
+    ```
 
 ## 2. Joins 
 

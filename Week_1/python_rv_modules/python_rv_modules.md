@@ -53,28 +53,28 @@ print_hello("Jeff")
 
 1. Before actually creating this file and running any code, determine what you think will happen if you run the following code in the command line.
 
-```python
-from code import print_hello
-print_hello("Tammy")
-```
-```
-Hello, Jeff!
-Hello, Tammy!
-```
+    ```python
+    from code import print_hello
+    print_hello("Tammy")
+    ```
+    ```
+    Hello, Jeff!
+    Hello, Tammy!
+    ```
 
 2. Create the `code.py` file and run the above code. Is this what you expected?
 
-```
-Yes
-```
+    ```
+    Yes
+    ```
 
 3. Modify the `code.py` so that you only get one "Hello" from running the above code. Make sure that if I run `python code.py` on the command line I will still get the same result as before!
 
-```python
-def print_hello(name):
-    print "Hello, %s!" % name
+    ```python
+    def print_hello(name):
+        print "Hello, %s!" % name
 
-if __name__ == "__main__":
-    print_hello("Jeff")
-```
+    if __name__ == "__main__":
+        print_hello("Jeff")
+    ```
 
