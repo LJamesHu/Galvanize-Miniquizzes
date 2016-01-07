@@ -4,11 +4,11 @@ We'd like to create a class stucture for points in the cartesian plane (x, y poi
 
 Here's how we should be able to use it:
 
-    ```python
-    p1 = Point(9, 2)
-    p2 = Point(5, 5)
-    print "distance:", p1.distance(p2)  # -> 5
-    ```
+```python
+p1 = Point(9, 2)
+p2 = Point(5, 5)
+print "distance:", p1.distance(p2)  # -> 5
+```
 
 1. Create a `Point` class which takes two values and stores them as instance variables (probably called `x` and `y`).
 
